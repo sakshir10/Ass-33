@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-33</title>
+</head>
+<body>
+    <div class="container">
+        <img src="./img/header.jpg" class="img-header" alt="Coding" />
+        <div>
+          <h1 class="header-text">Coding सीखनी हैं?🤔 सीखा देंगे! 🤝</h1>
+          <img src="./img/qr.png" class="img-qr" alt="QR Code" />
+          <p class="qr-description">
+            Scan the QR code to know more Road To Code.🚀
+          </p>
+        </div>
+      </div>
+  
+      <button type="button" class="btn" onclick="openModal()">Enroll Now</button>
+  
+      <div class="overlay" id="overlay">
+        <div class="modal">
+          <img
+            src="./img/close.png"
+            class="close-icon"
+            alt="Close"
+            onclick="closeModal()" />
+          <form class="form">
+  
+            <h1 class="form-header">Enroll Now</h1>
+  
+            <input
+              type="text"
+              placeholder="Enter your name"
+              class="form-input"
+            />
+  
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="form-input"
+            />
+  
+            <input
+              type="text"
+              placeholder="Enter your phone number"
+              class="form-input"
+            />
+  
+            <input
+              type="text"
+              placeholder="College/School Name"
+              class="form-input"
+            />
+          </form>
+  
+          <button type="button" class="btn">
+            Proced to Payment
+          </button>
+        </div>
+      </div>
+  
+  
+      <script src="./js/script.js"></script>
+</body>
+</html>
